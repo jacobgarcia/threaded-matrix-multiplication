@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16F3A03C1CD6673100EEBA80 /* MultiplicateMatrices.c in Sources */ = {isa = PBXBuildFile; fileRef = 16F3A0351CD6673100EEBA80 /* MultiplicateMatrices.c */; };
+		16F3A03D1CD6673100EEBA80 /* MatrixFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = 16F3A0361CD6673100EEBA80 /* MatrixFunctions.c */; };
+		16F3A0401CD667CF00EEBA80 /* FileIO.c in Sources */ = {isa = PBXBuildFile; fileRef = 16F3A03E1CD667CF00EEBA80 /* FileIO.c */; };
+		16F3A0421CD66D7A00EEBA80 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = 16F3A0411CD66D7A00EEBA80 /* makefile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		16F3A0261CD666E000EEBA80 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		16F3A0281CD666E100EEBA80 /* MatrixMultiplication */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MatrixMultiplication; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F3A0341CD6673100EEBA80 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		16F3A0351CD6673100EEBA80 /* MultiplicateMatrices.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MultiplicateMatrices.c; sourceTree = "<group>"; };
+		16F3A0361CD6673100EEBA80 /* MatrixFunctions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MatrixFunctions.c; sourceTree = "<group>"; };
+		16F3A0371CD6673100EEBA80 /* MatrixFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixFunctions.h; sourceTree = "<group>"; };
+		16F3A0391CD6673100EEBA80 /* matrices.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = matrices.txt; sourceTree = "<group>"; };
+		16F3A03A1CD6673100EEBA80 /* matrices2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = matrices2.txt; sourceTree = "<group>"; };
+		16F3A03E1CD667CF00EEBA80 /* FileIO.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FileIO.c; sourceTree = "<group>"; };
+		16F3A03F1CD667CF00EEBA80 /* FileIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileIO.h; sourceTree = "<group>"; };
+		16F3A0411CD66D7A00EEBA80 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		16F3A0431CD6800800EEBA80 /* MultiplicateMatrices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiplicateMatrices.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16F3A0251CD666E000EEBA80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16F3A01F1CD666E000EEBA80 = {
+			isa = PBXGroup;
+			children = (
+				16F3A02A1CD666E100EEBA80 /* MatrixMultiplication */,
+				16F3A0291CD666E100EEBA80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16F3A0291CD666E100EEBA80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16F3A0281CD666E100EEBA80 /* MatrixMultiplication */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16F3A02A1CD666E100EEBA80 /* MatrixMultiplication */ = {
+			isa = PBXGroup;
+			children = (
+				16F3A0411CD66D7A00EEBA80 /* makefile */,
+				16F3A03E1CD667CF00EEBA80 /* FileIO.c */,
+				16F3A03F1CD667CF00EEBA80 /* FileIO.h */,
+				16F3A0341CD6673100EEBA80 /* README.txt */,
+				16F3A0351CD6673100EEBA80 /* MultiplicateMatrices.c */,
+				16F3A0431CD6800800EEBA80 /* MultiplicateMatrices.h */,
+				16F3A0361CD6673100EEBA80 /* MatrixFunctions.c */,
+				16F3A0371CD6673100EEBA80 /* MatrixFunctions.h */,
+				16F3A0391CD6673100EEBA80 /* matrices.txt */,
+				16F3A03A1CD6673100EEBA80 /* matrices2.txt */,
+			);
+			path = MatrixMultiplication;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16F3A0271CD666E000EEBA80 /* MatrixMultiplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16F3A02F1CD666E100EEBA80 /* Build configuration list for PBXNativeTarget "MatrixMultiplication" */;
+			buildPhases = (
+				16F3A0241CD666E000EEBA80 /* Sources */,
+				16F3A0251CD666E000EEBA80 /* Frameworks */,
+				16F3A0261CD666E000EEBA80 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatrixMultiplication;
+			productName = MatrixMultiplication;
+			productReference = 16F3A0281CD666E100EEBA80 /* MatrixMultiplication */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16F3A0201CD666E000EEBA80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = UmbrellaCorporation;
+				TargetAttributes = {
+					16F3A0271CD666E000EEBA80 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 16F3A0231CD666E000EEBA80 /* Build configuration list for PBXProject "MatrixMultiplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16F3A01F1CD666E000EEBA80;
+			productRefGroup = 16F3A0291CD666E100EEBA80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16F3A0271CD666E000EEBA80 /* MatrixMultiplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16F3A0241CD666E000EEBA80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F3A0401CD667CF00EEBA80 /* FileIO.c in Sources */,
+				16F3A03C1CD6673100EEBA80 /* MultiplicateMatrices.c in Sources */,
+				16F3A0421CD66D7A00EEBA80 /* makefile in Sources */,
+				16F3A03D1CD6673100EEBA80 /* MatrixFunctions.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		16F3A02D1CD666E100EEBA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		16F3A02E1CD666E100EEBA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		16F3A0301CD666E100EEBA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16F3A0311CD666E100EEBA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16F3A0231CD666E000EEBA80 /* Build configuration list for PBXProject "MatrixMultiplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F3A02D1CD666E100EEBA80 /* Debug */,
+				16F3A02E1CD666E100EEBA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16F3A02F1CD666E100EEBA80 /* Build configuration list for PBXNativeTarget "MatrixMultiplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F3A0301CD666E100EEBA80 /* Debug */,
+				16F3A0311CD666E100EEBA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16F3A0201CD666E000EEBA80 /* Project object */;
+}
